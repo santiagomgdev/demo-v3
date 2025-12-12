@@ -39,6 +39,7 @@ artifacts/
 [Tt]est[Rr]esult*/
 *.trx
 *.coverage
+**/coveragereport
 
 # ASP.NET Core
 **/appsettings.Development.json
@@ -52,3 +53,5 @@ artifacts/
 # OS files
 .DS_Store
 Thumbs.db
+
+/docs
