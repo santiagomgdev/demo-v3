@@ -1,5 +1,7 @@
 using DemoV3.Application.Common.Middleware;
 using DemoV3.Application.Estados.UseCases.CrearEstado;
+using DemoV3.Application.Estados.UseCases.ObtenerEstado;
+using DemoV3.Application.Estados.UseCases.ObtenerEstados;
 using DemoV3.Domain.Services;
 using DemoV3.Infrastructure;
 using DemoV3.Infrastructure.Data.Seeders;
@@ -20,8 +22,10 @@ builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<EstadoService>();
 
 builder.Services.AddScoped<CrearEstadoHandler>();
-
 builder.Services.AddScoped<CrearEstadoValidator>();
+
+builder.Services.AddScoped<ObtenerEstadoService>();
+builder.Services.AddScoped<ObtenerEstadosService>();
 
 var app = builder.Build();
 
@@ -38,5 +42,7 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.MapCrearEstado();
+app.MapObtenerEstado();
+app.MapObtenerEstados();
 
 app.Run();
