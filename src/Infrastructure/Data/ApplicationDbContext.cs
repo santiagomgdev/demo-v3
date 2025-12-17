@@ -6,6 +6,7 @@ namespace DemoV3.Infrastructure.Data;
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
     public DbSet<Estado> Estados => Set<Estado>();
+    public DbSet<Pais> Paises => Set<Pais>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
