@@ -22,8 +22,11 @@ public static class DependencyInjection
 
         // Repositorios
         services.AddScoped<IEstadoRepository, EstadoRepository>();
+        services.AddScoped<IPaisRepository, PaisRepository>();
+        services.AddScoped<IParentescoRepository, ParentescoRepository>();
 
         services.AddScoped<ISeeder, EstadoSeeder>();
+        services.AddScoped<ISeeder, ParentescoSeeder>();
         services.AddScoped<DatabaseSeeder>();
 
         return services;

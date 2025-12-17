@@ -7,6 +7,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     public DbSet<Estado> Estados => Set<Estado>();
     public DbSet<Pais> Paises => Set<Pais>();
+    public DbSet<Parentesco> Parentescos => Set<Parentesco>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -18,7 +18,7 @@ public class EstadoRepository(ApplicationDbContext context) : IEstadoRepository
         return await _context.Estados.FirstOrDefaultAsync(e => e.Nombre == nombre);
     }
 
-    public async Task<IEnumerable<Estado>> ObtenerTodosAsync()
+    public async Task<List<Estado>> ObtenerTodosAsync()
     {
         return await _context.Estados.ToListAsync();
     }

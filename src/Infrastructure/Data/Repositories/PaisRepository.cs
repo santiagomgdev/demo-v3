@@ -18,7 +18,7 @@ public class PaisRepository(ApplicationDbContext context) : IPaisRepository
         return await _context.Paises.FirstOrDefaultAsync(e => e.Nombre == nombre);
     }
 
-    public async Task<IEnumerable<Pais>> ObtenerTodosAsync()
+    public async Task<List<Pais>> ObtenerTodosAsync()
     {
         return await _context.Paises.ToListAsync();
     }
