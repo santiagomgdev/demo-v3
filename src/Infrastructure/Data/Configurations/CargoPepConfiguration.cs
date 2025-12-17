@@ -4,34 +4,25 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Data.Configurations;
 
-public class ParentescoConfiguration : IEntityTypeConfiguration<Parentesco>
+public class CargoPepConfiguration : IEntityTypeConfiguration<CargoPep>
 {
-    public void Configure(EntityTypeBuilder<Parentesco> builder)
+    public void Configure(EntityTypeBuilder<CargoPep> builder)
     {
-        builder.ToTable("parentescos");
-        builder.HasKey(e => e.ParentescoId);
-
-        builder.Property(e => e.ParentescoId)
-            .HasColumnName("parentesco_id")
-            .ValueGeneratedOnAdd()
-            .IsRequired();
+        builder.ToTable("cargos_pep");
+        builder.HasKey(e => e.Codigo);
 
         builder.Property(e => e.Codigo)
             .HasColumnName("codigo")
-            .HasMaxLength(2)
+            .ValueGeneratedOnAdd()
             .IsRequired();
 
-        builder.HasIndex(e => e.Codigo)
-            .HasDatabaseName("ix_parentesco_codigo")
-            .IsUnique();
-
-        builder.Property(e => e.Descripcion)
-            .HasColumnName("descripcion")
-            .HasMaxLength(40)
+        builder.Property(e => e.Nombre)
+            .HasColumnName("nombre")
+            .HasMaxLength(200)
             .IsRequired();
-
-        builder.HasIndex(e => e.Descripcion)
-            .HasDatabaseName("ix_parentesco_descripcion")
+        
+        builder.HasIndex(e => e.Nombre)
+            .HasDatabaseName("ix_cargos_pep_nombre")
             .IsUnique();
 
         builder.Property(e => e.Estado)
