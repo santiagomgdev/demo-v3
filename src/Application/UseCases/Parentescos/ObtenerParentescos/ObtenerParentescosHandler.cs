@@ -3,7 +3,7 @@ using Contracts.Parentesco;
 using Domain.Entities;
 using Domain.Repositories;
 
-namespace Application.Features.Parentescos.ObtenerParentescos;
+namespace Application.UseCases.Parentescos.ObtenerParentescos;
 
 public class ObtenerParentescosHandler(IParentescoRepository repository)
 {

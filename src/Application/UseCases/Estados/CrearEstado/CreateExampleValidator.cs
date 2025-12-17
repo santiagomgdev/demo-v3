@@ -1,7 +1,7 @@
 using Contracts.Estado;
 using FluentValidation;
 
-namespace Application.Features.Estados.CrearEstado;
+namespace Application.UseCases.Estados.CrearEstado;
 
 public class CrearEstadoValidator : AbstractValidator<CrearEstadoRequest>
 {

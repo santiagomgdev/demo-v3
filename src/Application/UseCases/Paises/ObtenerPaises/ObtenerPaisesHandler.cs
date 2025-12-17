@@ -3,7 +3,7 @@ using Contracts.Paises;
 using Domain.Entities;
 using Domain.Repositories;
 
-namespace Application.Features.Paises.ObtenerPaises;
+namespace Application.UseCases.Paises.ObtenerPaises;
 
 public class ObtenerPaisesHandler(IPaisRepository repository)
 {

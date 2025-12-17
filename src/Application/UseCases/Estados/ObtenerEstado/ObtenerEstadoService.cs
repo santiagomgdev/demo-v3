@@ -3,7 +3,7 @@ using Contracts.Estado;
 using DemoV3.Contracts.Common;
 using Domain.Repositories;
 
-namespace Application.Features.Estados.ObtenerEstado;
+namespace Application.UseCases.Estados.ObtenerEstado;
 
 public class ObtenerEstadoService(IEstadoRepository repository)
 {

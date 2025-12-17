@@ -1,6 +1,6 @@
 using Contracts.Estado;
 
-namespace Application.Features.Estados.ObtenerEstado;
+namespace Application.UseCases.Estados.ObtenerEstado;
 
 public static class ObtenerEstadoEndpoint
 {

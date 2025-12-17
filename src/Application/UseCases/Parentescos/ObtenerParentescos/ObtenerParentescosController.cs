@@ -1,7 +1,7 @@
 ﻿using Application.Common.Result;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Application.Features.Parentescos.ObtenerParentescos;
+namespace Application.UseCases.Parentescos.ObtenerParentescos;
 
 [Route("api/v1/parentescos")]
 [ApiController]

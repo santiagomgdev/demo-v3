@@ -4,7 +4,7 @@ using DemoV3.Contracts.Common;
 using Domain.Entities;
 using Domain.Repositories;
 
-namespace Application.Features.Estados.CrearEstado;
+namespace Application.UseCases.Estados.CrearEstado;
 
 public class CrearEstadoHandler(IEstadoRepository repository)
 {

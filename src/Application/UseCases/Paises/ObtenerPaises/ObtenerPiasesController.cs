@@ -1,4 +1,5 @@
 ﻿using Application.Common.Result;
+using Application.UseCases.Paises.ObtenerPaises;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Application.Features.Paises.ObtenerPaises;

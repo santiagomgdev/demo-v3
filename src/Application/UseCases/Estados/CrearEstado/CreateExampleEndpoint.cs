@@ -1,6 +1,7 @@
+using Application.UseCases.Estados.CrearEstado;
 using Contracts.Estado;
 
-namespace Application.Features.Estados.CrearEstado;
+namespace Application.UseCases.Estados.CrearEstado;
 
 public static class CrearEstadoEndpoint
 {

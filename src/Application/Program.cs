@@ -1,7 +1,8 @@
 using Application.Common.Middleware;
 using Application.Features.Estados.CrearEstado;
-using Application.Features.Estados.ObtenerEstado;
 using Application.Features.Estados.ObtenerEstados;
+using Application.UseCases.Estados.CrearEstado;
+using Application.UseCases.Estados.ObtenerEstado;
 using Domain.Services;
 using Infrastructure;
 using Infrastructure.Data.Seeders;

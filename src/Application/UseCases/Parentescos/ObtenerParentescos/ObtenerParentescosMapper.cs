@@ -2,7 +2,7 @@
 using Contracts.Parentesco;
 using Domain.Entities;
 
-namespace Application.Features.Parentescos.ObtenerParentescos;
+namespace Application.UseCases.Parentescos.ObtenerParentescos;
 
 public static class ObtenerParentescosMapper
 {
