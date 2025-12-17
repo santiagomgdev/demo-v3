@@ -1,7 +1,7 @@
-using DemoV3.Domain.Enums;
-using DemoV3.Domain.ValueObjects;
+using Domain.Enums;
+using Domain.ValueObjects;
 
-namespace DemoV3.Domain.Entities;
+namespace Domain.Entities;
 
 public class Estado
 {

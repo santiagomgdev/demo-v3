@@ -1,5 +1,4 @@
-
-namespace DemoV3.Domain.Entities;
+namespace Domain.Entities;
 
 public class Pais()
 {

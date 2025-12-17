@@ -1,8 +1,8 @@
-using DemoV3.Contracts.Interfaces;
-using DemoV3.Domain.Entities;
+using Domain.Entities;
+using Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace DemoV3.Infrastructure.Data.Repositories;
+namespace Infrastructure.Data.Repositories;
 
 public class EstadoRepository(ApplicationDbContext context) : IEstadoRepository
 {

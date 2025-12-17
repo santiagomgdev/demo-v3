@@ -1,10 +1,10 @@
-using DemoV3.Application.Common.Middleware;
-using DemoV3.Application.Estados.UseCases.CrearEstado;
-using DemoV3.Application.Estados.UseCases.ObtenerEstado;
-using DemoV3.Application.Estados.UseCases.ObtenerEstados;
-using DemoV3.Domain.Services;
-using DemoV3.Infrastructure;
-using DemoV3.Infrastructure.Data.Seeders;
+using Application.Common.Middleware;
+using Application.Features.Estados.CrearEstado;
+using Application.Features.Estados.ObtenerEstado;
+using Application.Features.Estados.ObtenerEstados;
+using Domain.Services;
+using Infrastructure;
+using Infrastructure.Data.Seeders;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);

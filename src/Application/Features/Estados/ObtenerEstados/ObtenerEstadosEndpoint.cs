@@ -1,6 +1,6 @@
-using DemoV3.Contracts.Estados;
+using Contracts.Estado;
 
-namespace DemoV3.Application.Estados.UseCases.ObtenerEstados;
+namespace Application.Features.Estados.ObtenerEstados;
 
 public static class ObtenerEstadosEndpoint
 {

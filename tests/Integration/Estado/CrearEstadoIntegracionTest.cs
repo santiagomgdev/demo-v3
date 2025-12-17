@@ -1,9 +1,9 @@
-using DemoV3.Application.Data;
-using DemoV3.Application.Estados.UseCases.CrearEstado;
-using DemoV3.Contracts.Estados;
-using DemoV3.Contracts.Interfaces;
+using Application.Data;
+using Application.Features.Estados.CrearEstado;
+using Contracts.Estado;
+using Domain.Repositories;
 
-namespace DemoV3.Tests.Integration.Estados;
+namespace Integration.Estado;
 
 public class CrearEstadoIntegrationTest
 {

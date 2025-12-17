@@ -1,4 +1,4 @@
-namespace DemoV3.Contracts.Estados;
+namespace Contracts.Estado;
 
 public record EstadoResponse(
     int Id,

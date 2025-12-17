@@ -1,6 +1,7 @@
+using DemoV3.Infrastructure.Data.Seeders;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DemoV3.Infrastructure.Data.Seeders;
+namespace Infrastructure.Data.Seeders;
 
 public class DatabaseSeeder(IServiceProvider serviceProvider)
 {

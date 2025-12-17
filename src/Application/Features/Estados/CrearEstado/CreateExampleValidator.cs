@@ -1,7 +1,7 @@
-using DemoV3.Contracts.Estados;
+using Contracts.Estado;
 using FluentValidation;
 
-namespace DemoV3.Application.Estados.UseCases.CrearEstado;
+namespace Application.Features.Estados.CrearEstado;
 
 public class CrearEstadoValidator : AbstractValidator<CrearEstadoRequest>
 {

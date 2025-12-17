@@ -1,9 +1,10 @@
+using Contracts.Common;
+using Contracts.Estado;
 using DemoV3.Contracts.Common;
-using DemoV3.Contracts.Estados;
-using DemoV3.Contracts.Interfaces;
-using DemoV3.Domain.Entities;
+using Domain.Entities;
+using Domain.Repositories;
 
-namespace DemoV3.Application.Estados.UseCases.CrearEstado;
+namespace Application.Features.Estados.CrearEstado;
 
 public class CrearEstadoHandler(IEstadoRepository repository)
 {

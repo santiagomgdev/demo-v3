@@ -1,4 +1,4 @@
-namespace DemoV3.Domain.ValueObjects;
+namespace Domain.ValueObjects;
 
 public sealed record Descripcion
 {

@@ -1,6 +1,6 @@
-using DemoV3.Domain.Entities;
+using Domain.Entities;
 
-namespace DemoV3.Contracts.Interfaces;
+namespace Domain.Repositories;
 
 public interface IEstadoRepository
 {

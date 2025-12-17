@@ -1,7 +1,7 @@
-using DemoV3.Domain.Entities;
-using DemoV3.Domain.Enums;
+using Domain.Entities;
+using Domain.Enums;
 
-namespace DemoV3.Domain.Services;
+namespace Domain.Services;
 
 public class EstadoService
 {

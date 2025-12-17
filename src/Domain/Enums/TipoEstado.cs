@@ -1,4 +1,4 @@
-namespace DemoV3.Domain.Enums;
+namespace Domain.Enums;
 
 public enum TipoEstado
 {

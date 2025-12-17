@@ -1,8 +1,9 @@
+using Contracts.Common;
+using Contracts.Estado;
 using DemoV3.Contracts.Common;
-using DemoV3.Contracts.Estados;
-using DemoV3.Contracts.Interfaces;
+using Domain.Repositories;
 
-namespace DemoV3.Application.Estados.UseCases.ObtenerEstados;
+namespace Application.Features.Estados.ObtenerEstados;
 
 public class ObtenerEstadosService(IEstadoRepository repository)
 {

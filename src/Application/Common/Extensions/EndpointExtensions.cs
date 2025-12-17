@@ -1,4 +1,4 @@
-namespace DemoV3.Application.Common.Extensions;
+namespace Application.Common.Extensions;
 
 public static class EndpointExtensions
 {

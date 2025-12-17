@@ -1,4 +1,6 @@
-namespace DemoV3.Contracts.Common;
+using DemoV3.Contracts.Common;
+
+namespace Contracts.Common;
 
 public class Resultado<T>
 {

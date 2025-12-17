@@ -1,7 +1,8 @@
-using DemoV3.Domain.Entities;
+using DemoV3.Infrastructure.Data.Seeders;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DemoV3.Infrastructure.Data.Seeders;
+namespace Infrastructure.Data.Seeders;
 
 public class EstadoSeeder(ApplicationDbContext context) : ISeeder
 {

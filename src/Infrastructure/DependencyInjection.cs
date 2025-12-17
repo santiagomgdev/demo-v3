@@ -1,12 +1,13 @@
-using DemoV3.Contracts.Interfaces;
-using DemoV3.Infrastructure.Data;
-using DemoV3.Infrastructure.Data.Repositories;
 using DemoV3.Infrastructure.Data.Seeders;
+using Domain.Repositories;
+using Infrastructure.Data;
+using Infrastructure.Data.Repositories;
+using Infrastructure.Data.Seeders;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DemoV3.Infrastructure;
+namespace Infrastructure;
 
 public static class DependencyInjection
 {

@@ -1,9 +1,9 @@
-using DemoV3.Domain.Entities;
-using DemoV3.Domain.ValueObjects;
+using Domain.Entities;
+using Domain.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DemoV3.Infrastructure.Data.Configurations;
+namespace Infrastructure.Data.Configurations;
 
 public class EstadoConfiguration : IEntityTypeConfiguration<Estado>
 {

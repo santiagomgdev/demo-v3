@@ -1,7 +1,7 @@
-using DemoV3.Domain.Entities;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DemoV3.Infrastructure.Data;
+namespace Infrastructure.Data;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {

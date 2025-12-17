@@ -1,7 +1,7 @@
 using System.Net;
 using System.Text.Json;
 
-namespace DemoV3.Application.Common.Middleware;
+namespace Application.Common.Middleware;
 
 public class ExceptionHandlingMiddleware(RequestDelegate next)
 {

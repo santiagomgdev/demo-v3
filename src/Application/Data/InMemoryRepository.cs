@@ -1,7 +1,7 @@
-using DemoV3.Contracts.Interfaces;
-using DemoV3.Domain.Entities;
+using Domain.Entities;
+using Domain.Repositories;
 
-namespace DemoV3.Application.Data;
+namespace Application.Data;
 
 public class InMemoryRepository : IEstadoRepository
 {
